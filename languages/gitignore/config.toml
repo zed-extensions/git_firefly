@@ -4,6 +4,7 @@ path_suffixes = [
   # Refer to https://github.com/neovim/neovim/blob/191cca2566a8afe2b2f2744f3eb763d810cc416c/runtime/lua/vim/filetype.lua#L1297
   # TODO: need match: https://github.com/neovim/neovim/blob/191cca2566a8afe2b2f2744f3eb763d810cc416c/runtime/lua/vim/filetype.lua#L1702-L1704
   ".gitignore",
+  ".git-blame-ignore-revs",
 
   # other? https://github.com/zed-industries/extensions/pull/649
   ".dockerignore",
