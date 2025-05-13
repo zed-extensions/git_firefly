@@ -1,5 +1,0 @@
-name = "Diff"
-grammar = "diff"
-path_suffixes = ["diff"]
-line_comments = ["#"]
-brackets = []
