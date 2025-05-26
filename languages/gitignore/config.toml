@@ -9,9 +9,10 @@ path_suffixes = [
   # other? https://github.com/zed-industries/extensions/pull/649
   ".dockerignore",
   
-  ".vscodeignore",
   ".eslintignore",
-  ".prettierignore"
+  ".npmignore",
+  ".prettierignore",
+  ".vscodeignore"
 ]
 line_comments = ["#"]
 autoclose_before = "]"
