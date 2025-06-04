@@ -2,7 +2,7 @@ id = "git-firefly"
 name = "Git Firefly"
 version = "0.0.4"
 schema_version = 1
-authors = [ "d1y <chenhonzho@gmail.com>" ]
+authors = [ "d1y <chenhonzhou@gmail.com>" ]
 description = "Provides Git Syntax Highlighting"
 repository = "https://github.com/d1y/git_firefly"
 
