@@ -17,7 +17,7 @@ This extension will automatically recognize the majority of filenames/extensions
 ```json
 {
   "file_types": {
-    "Git Attributes": ["{git,git/.git/info,}/attributes"],
+    "Git Attributes": ["{git,.git,.git/info}/attributes"],
     "Git Config": ["{git,.git/modules,.git/modules/*}/config"],
     "Git Ignore": ["{git,.git}/ignore", ".git/info/exclude"]
   }
