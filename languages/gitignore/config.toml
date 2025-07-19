@@ -10,6 +10,7 @@ path_suffixes = [
   ".dockerignore",
   ".npmignore",
   ".vscodeignore",
+  ".cursorignore",
   ".eslintignore",
   ".prettierignore"
 ]
