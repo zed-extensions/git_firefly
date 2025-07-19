@@ -1,0 +1,4 @@
+[formatting]
+array_auto_collapse = false
+array_trailing_comma = true
+indent_string = "  "
