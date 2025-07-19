@@ -8,7 +8,7 @@ path_suffixes = [
 
   # other? https://github.com/zed-industries/extensions/pull/649
   ".dockerignore",
-  
+  ".npmignore",
   ".vscodeignore",
   ".eslintignore",
   ".prettierignore"
