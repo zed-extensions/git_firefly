@@ -4,5 +4,10 @@
       "tab_size": 2,
       "format_on_save": "off"
     }
+  },
+  "file_types": {
+    "Git Attributes": ["{git,.git{/info,}}/attributes"],
+    "Git Config": ["{git,.git{modules,modules/*,}}/config"],
+    "Git Ignore": ["{git,.git}/ignore", ".git/info/exclude"]
   }
 }

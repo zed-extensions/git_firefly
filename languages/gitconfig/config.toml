@@ -1,10 +1,11 @@
 name = "Git Config"
 grammar = "git_config"
 path_suffixes = [
-  # Refer to https://github.com/neovim/neovim/blob/191cca2566a8afe2b2f2744f3eb763d810cc416c/runtime/lua/vim/filetype.lua#L1294-L1295C5
+  # https://github.com/neovim/neovim/blob/master/runtime/lua/vim/filetype.lua
+  "config.worktree",
   ".gitconfig",
+  ".gitmodules",
   ".lfsconfig",
-  ".gitmodules"
 ]
 line_comments = ["; "]
 autoclose_before = "]"
