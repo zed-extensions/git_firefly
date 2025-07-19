@@ -2,24 +2,35 @@
 
 <img width="720" src="https://s2.loli.net/2024/05/02/n8PkoAaFdrNsGZ5.png" />
 
-Support the following syntax highlighting:
+Provide the syntax highlighting for the following Languages:
 
-- git_commit
-- git_config
-- git_rebase
-- diff(TODO)
-- gitignore
-- gitattributes
+- [Git Attributes](https://github.com/tree-sitter-grammars/tree-sitter-gitattributes): .gitattributes, .git/info/attributes, etc
+- [Git Commit](https://github.com/the-mikedavis/tree-sitter-git-commit): COMMIT_EDITMSG, EDIT_DESCRIPTION, MERGE_MSG, NOTES_EDITMSG, TAG_EDITMSG
+- [Git Config](https://github.com/the-mikedavis/tree-sitter-git-config): .gitconfig, .gitmodules, .lfsconfig, config.worktree
+- [Git Ignore](https://github.com/shunsambongi/tree-sitter-gitignore): .gitignore, .dockerignore, .npmignore, .prettierignore, etc
+- [Git Rebase](https://github.com/the-mikedavis/tree-sitter-git-rebase): git-rebase-todo
 
-# Use zed commit editor
+## Configuration
 
-> https://github.com/zed-industries/zed/issues/7048
+This extension will automatically recognize the majority of filenames/extensions out of the box, but some require some additional configuration via [`file_types`] in Zed Settings:
+
+```json
+{
+  "file_types": {
+    "Git Attributes": ["{git,.git{/info,}}/attributes"],
+    "Git Config": ["{git,.git{modules,modules/*,}}/config"],
+    "Git Ignore": ["{git,.git}/ignore", ".git/info/exclude"]
+  }
+}
+```
+
+## Use zed commit editor
 
 ```json
 {
   "terminal": {
     "env": {
-      "EDITOR": "zed --wait"
+      "GIT_EDITOR": "zed --wait"
     }
   }
 }
@@ -30,5 +41,5 @@ And Then
 ```bash
 git add .
 git commit
-git push -f # take off
+git push
 ```

@@ -1,21 +1,20 @@
+path_suffixes = [
+  # https://github.com/neovim/neovim/blob/master/runtime/lua/vim/filetype.lua
+  ".containerignore",
+  ".cursorignore",
+  ".dockerignore",
+  ".eslintignore",
+  ".fdignore",        # https://github.com/sharkdp/fd
+  ".ignore",          # https://github.com/BurntSushi/ripgrep
+  ".npmignore",
+  ".prettierignore",
+  ".rgignore",        # https://github.com/BurntSushi/ripgrep
+  ".vscodeignore",
+]
 name = "Git Ignore"
 grammar = "gitignore"
-path_suffixes = [
-  # Refer to https://github.com/neovim/neovim/blob/191cca2566a8afe2b2f2744f3eb763d810cc416c/runtime/lua/vim/filetype.lua#L1297
-  # TODO: need match: https://github.com/neovim/neovim/blob/191cca2566a8afe2b2f2744f3eb763d810cc416c/runtime/lua/vim/filetype.lua#L1702-L1704
-  ".gitignore",
-  ".git-blame-ignore-revs",
-
-  # other? https://github.com/zed-industries/extensions/pull/649
-  ".dockerignore",
-  ".npmignore",
-  ".vscodeignore",
-  ".cursorignore",
-  ".eslintignore",
-  ".prettierignore"
-]
 line_comments = ["#"]
 autoclose_before = "]"
 brackets = [
-  { start = "[", end = "]", close = true, newline = false }
+  { start = "[", end = "]", close = true, newline = false },
 ]
