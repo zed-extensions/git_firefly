@@ -1,12 +1,11 @@
 name = "Git Commit"
-grammar = "git_commit"
+grammar = "gitcommit"
 path_suffixes = [
-  # https://github.com/neovim/neovim/blob/master/runtime/lua/vim/filetype.lua
-  "COMMIT_EDITMSG",
-  "EDIT_DESCRIPTION",
-  "MERGE_MSG",
-  "NOTES_EDITMSG",
   "TAG_EDITMSG",
+  "MERGE_MSG",
+  "COMMIT_EDITMSG",
+  "NOTES_EDITMSG",
+  "EDIT_DESCRIPTION",
 ]
 line_comments = ["#"]
 brackets = [
@@ -16,4 +15,10 @@ brackets = [
   { start = "'", end = "'", close = true, newline = false },
   { start = "{", end = "}", close = true, newline = false },
   { start = "[", end = "]", close = true, newline = false },
+]
+rewrap_prefixes = [
+    "[-*+]\\s+",
+    "\\d+\\.\\s+",
+    ">\\s*",
+    "[-*+]\\s+\\[[\\sx]\\]\\s+"
 ]
