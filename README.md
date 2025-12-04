@@ -5,7 +5,6 @@
 Provide the syntax highlighting for the following Languages:
 
 - [Git Attributes](https://github.com/tree-sitter-grammars/tree-sitter-gitattributes): .gitattributes, .git/info/attributes, etc
-- [Git Commit](https://github.com/the-mikedavis/tree-sitter-git-commit): COMMIT_EDITMSG, EDIT_DESCRIPTION, MERGE_MSG, NOTES_EDITMSG, TAG_EDITMSG
 - [Git Config](https://github.com/the-mikedavis/tree-sitter-git-config): .gitconfig, .gitmodules, .lfsconfig, config.worktree
 - [Git Ignore](https://github.com/shunsambongi/tree-sitter-gitignore): .gitignore, .dockerignore, .npmignore, .prettierignore, etc
 - [Git Rebase](https://github.com/the-mikedavis/tree-sitter-git-rebase): git-rebase-todo
