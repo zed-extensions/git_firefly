@@ -1,6 +1,6 @@
 id = "git-firefly"
 name = "Git Firefly"
-version = "0.1.2"
+version = "0.1.3"
 schema_version = 1
 authors = [
   "d1y <chenhonzhou@gmail.com>",
