@@ -4,5 +4,5 @@ path_suffixes = [
   # https://github.com/neovim/neovim/blob/master/runtime/lua/vim/filetype.lua
   "git-rebase-todo",
 ]
-line_comments = ["#"]
+line_comments = ["# "]
 brackets = []
