@@ -8,6 +8,7 @@ Provide the syntax highlighting for the following Languages:
 - [Git Config](https://github.com/the-mikedavis/tree-sitter-git-config): .gitconfig, .gitmodules, .lfsconfig, config.worktree
 - [Git Ignore](https://github.com/shunsambongi/tree-sitter-gitignore): .gitignore, .dockerignore, .npmignore, .prettierignore, etc
 - [Git Rebase](https://github.com/the-mikedavis/tree-sitter-git-rebase): git-rebase-todo
+- [Code Owners](https://github.com/lukasmalkmus/tree-sitter-codeowners): CODEOWNERS
 
 ## Configuration
 
