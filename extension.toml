@@ -15,7 +15,7 @@ commit = "0fbc9f99d5a28865f9de8427fb0672d66f9d83a5"
 
 [grammars.git_rebase]
 repository = "https://github.com/the-mikedavis/tree-sitter-git-rebase"
-commit = "d8a4207ebbc47bd78bacdf48f883db58283f9fd8"
+commit = "39bf3b7566c86ccffd70aaa5105c7c8b76788975"
 
 [grammars.gitattributes]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-gitattributes"
