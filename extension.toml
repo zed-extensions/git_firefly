@@ -19,7 +19,7 @@ commit = "39bf3b7566c86ccffd70aaa5105c7c8b76788975"
 
 [grammars.gitattributes]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-gitattributes"
-commit = "41940e199ba5763abea1d21b4f717014b45f01ea"
+commit = "1b7af09d45b579f9f288453b95ad555f1f431645"
 
 [grammars.gitignore]
 repository = "https://github.com/shunsambongi/tree-sitter-gitignore"
