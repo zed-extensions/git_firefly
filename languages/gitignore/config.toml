@@ -6,6 +6,7 @@ path_suffixes = [
   ".eslintignore",
   ".fdignore",        # https://github.com/sharkdp/fd
   ".gitignore",
+  ".gitignore_global",
   ".git-blame-ignore-revs",
   ".ignore",          # https://github.com/BurntSushi/ripgrep
   ".npmignore",
