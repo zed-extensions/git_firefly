@@ -16,6 +16,7 @@ path_suffixes = [
 ]
 name = "Git Ignore"
 grammar = "gitignore"
+modeline_aliases = ["gitignore"]
 line_comments = ["# "]
 autoclose_before = "]"
 brackets = [
