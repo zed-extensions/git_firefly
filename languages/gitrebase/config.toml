@@ -1,5 +1,6 @@
 name = "Git Rebase"
 grammar = "git_rebase"
+modeline_aliases = ["gitrebase"]
 path_suffixes = [
   # https://github.com/neovim/neovim/blob/master/runtime/lua/vim/filetype.lua
   "git-rebase-todo",

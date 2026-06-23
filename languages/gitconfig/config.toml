@@ -1,5 +1,6 @@
 name = "Git Config"
 grammar = "git_config"
+modeline_aliases = ["gitconfig"]
 path_suffixes = [
   # https://github.com/neovim/neovim/blob/master/runtime/lua/vim/filetype.lua
   "config.worktree",
